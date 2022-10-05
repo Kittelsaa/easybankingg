@@ -4,15 +4,25 @@ html body{
     min-height: 100vh;
     padding: 0%;
     margin: 0px;
+    overflow-x: hidden;
 }
 .box1{
     position: absolute;
     width: 100%;
-    height: 600px;
+    height: 1770px;
     margin: 0px;
     padding: 0%;
     background-color: hsl(0, 0%, 100%);
 }
+.mock{
+    position: absolute;
+    margin: 0px;
+    padding: 0%;
+    width: 580px;
+    height: 730px;
+    top: 0px;
+    left: 930px; 
+} 
 nav{
     position: absolute;
     width: 100%;
@@ -117,25 +127,16 @@ nav ul #Ca{
     font-family: 'Public Sans' , sans-serif;
     font-size: 14px;
 }
-.box1 #over{
+.first #over{
     position: absolute;
     margin: 0px;
     padding: 0%;
     width: 800px;
     height: 650px;
     top: 0px;
-    left: 710px;
+    left: 700px;
 }
-.box1 #up{
-    position: absolute;
-    margin: 0px;
-    padding: 0%;
-    width: 600px;
-    height: 700px;
-    top: 0px;
-    left: 900px;
-}
-.box1 h1{
+.first h1{
     position: absolute;
     color: hsl(233, 26%, 24%);
     margin: 0px;
@@ -146,7 +147,7 @@ nav ul #Ca{
     font-family: 'Public Sans' , sans-serif;
     font-size: 50px;
 }
-.box1 p{
+.first p{
     position: absolute;
     color: hsl(233, 8%, 62%);
     margin: 0px;
@@ -157,7 +158,7 @@ nav ul #Ca{
     font-family: 'Public Sans' , sans-serif;
     font-size: 16px;
 }
-.box1 #ri{
+.first #ri{
     position: absolute;
     margin: 0px;
     padding: 0%;
@@ -169,7 +170,7 @@ nav ul #Ca{
     border: 0px;
     border-radius: 50px;  
 }
-.box1 #ri a{
+.first #ri a{
     position: absolute;
     color: hsl(0, 0%, 100%);
     text-decoration: none;
@@ -341,7 +342,7 @@ nav ul #Ca{
     margin: 0px;
     padding: 0%;
     top: 1120px;
-    background-color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 33%, 99%);
 }
 .box3 h1{
     position: absolute;
@@ -350,7 +351,7 @@ nav ul #Ca{
     padding: 0%;
     width: 400px;
     top: 100px;
-    left: 230px;
+    left: 280px;
     font-weight: 300;
     font-family: 'Public Sans' , sans-serif;
     font-size: 50px;
@@ -400,28 +401,32 @@ nav ul #Ca{
 }
 .box3 #mula{
     position: absolute;
-    left: 230px;
+    left: 280px;
     top: 200px;
+    background-color: hsl(0, 0%, 100%);
 }
 .box3 #food{
     position: absolute;
-    left: 460px;
+    left: 510px;
     top: 200px;
+    background-color: hsl(0, 0%, 100%);
 }
 .box3 #plane{
     position: absolute;
-    left: 690px;
+    left: 740px;
     top: 200px;
+    background-color: hsl(0, 0%, 100%);
 }
 .box3 #party{
     position: absolute;
-    left: 925px;
+    left: 975px; 
     top: 200px;
+    background-color: hsl(0, 0%, 100%);
 }
 footer{
     position: absolute;
     width: 100%;
-    height: 360px;
+    height: 200px;
     margin: 0px;
     padding: 0%;
     top: 1720px;
@@ -472,7 +477,7 @@ footer h6{
     width: 500px;
     font-weight: 300;
     font-family: 'Public Sans' , sans-serif;
-    font-size: 11px;
+    font-size: 14px;
 }
 footer .icons{
     position: absolute;
@@ -482,40 +487,131 @@ footer .icons{
     text-align: center;
     padding: 0%;
     margin: 0px;
-    width: 200px;
+    width: 1500px;
     height: 30px;
-    font-size: 18px;
-    font-weight: 900px;
-    font-family: 'Barlow' , sans-serif;
-    top: 120px;
+    top: 75px;
     left: 120px;
 }
 footer .icons #fb{
     position: absolute;
-    width: 30px;
+    width: 20px;
+    left: 45px;
     size: 10px;
 }
 footer .icons #yt{
     position: absolute;
-    width: 30px;
-    left: 97px;
+    width: 20px;
+    left: 80px;
     size: 10px;
 }
 footer .icons #tw{
     position: absolute;
-    width: 30px;
-    left: 97px;
+    width: 20px;
+    left: 110px;
     size: 10px;
 }
 footer .icons #pin{
     position: absolute;
-    width: 30px;
-    left: 142px;
+    width: 20px;
+    left: 140px;
     size: 10px;
 }
 footer .icons #ins{
     position: absolute;
-    width: 30px;
-    left: 50px;
+    width: 20px;
+    left: 170px;
     size: 10px;
+}
+footer .all{
+    position: absolute;
+    list-style-type: none;
+    text-align: center;
+    padding: 0%;
+    margin: 0px;
+    width: 100px;
+    height: 30px;
+    top: 60px;
+    left: 400px;
+}
+footer .all #a{
+    position: absolute;
+    color: hsl(0, 5%, 92%);
+    margin: 0px;
+    padding: 0%;
+    width: 100px;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Public Sans' , sans-serif;
+    font-size: 14px;
+}
+footer .all #c{
+    position: absolute;
+    color: hsl(0, 5%, 92%);
+    margin: 0px;
+    padding: 0%;
+    width: 95px;
+    top: 35px;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Public Sans' , sans-serif;
+    font-size: 14px;
+}
+footer .all #b{
+    position: absolute;
+    color: hsl(0, 5%, 92%);
+    margin: 0px;
+    padding: 0%;
+    width: 76px;
+    top: 69px;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Public Sans' , sans-serif;
+    font-size: 14px;
+}
+footer .more{
+    position: absolute;
+    list-style-type: none;
+    text-align: center;
+    padding: 0%;
+    margin: 0px;
+    width: 100px;
+    height: 30px;
+    top: 60px;
+    left: 600px;
+}
+footer .more #ca{
+    position: absolute;
+    color: hsl(0, 5%, 92%);
+    margin: 0px;
+    padding: 0%;
+    width: 98px;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Public Sans' , sans-serif;
+    font-size: 14px;
+}
+footer .more #su{
+    position: absolute;
+    color: hsl(0, 5%, 92%);
+    margin: 0px;
+    padding: 0%;
+    width: 97px;
+    top: 34px;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Public Sans' , sans-serif;
+    font-size: 14px;
+}
+footer .more #pr{
+    position: absolute;
+    color: hsl(0, 5%, 92%);
+    margin: 0px;
+    padding: 0%;
+    width: 100px;
+    top: 69px;
+    left: 68px;
+    text-decoration: none;
+    font-weight: 300;
+    font-family: 'Public Sans' , sans-serif;
+    font-size: 14px;
 }
