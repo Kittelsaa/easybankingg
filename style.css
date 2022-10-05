@@ -435,10 +435,9 @@ footer{
 footer img{
     position: absolute;
     left: 170px;
-    top: 50px;
+    top: 55px;
     width: 120px;
     height: 18px;
-    background-color: none;
 }
 footer #rin{
     position: absolute;
@@ -489,7 +488,7 @@ footer .icons{
     margin: 0px;
     width: 1500px;
     height: 30px;
-    top: 75px;
+    top: 70px;
     left: 120px;
 }
 footer .icons #fb{
